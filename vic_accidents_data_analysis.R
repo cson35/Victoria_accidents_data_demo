@@ -194,10 +194,6 @@ toptenDis <- data[toupper(data$LGA) %in% topten$LGA, ]
 toptenDis <- aggregate(. ~ LGA, toptenDis[, -c(2, 3)], sum)
 
 
-# https://stackoverflow.com/questions/20349929/stacked-bar-plot-in-r
-# http://t-redactyl.io/blog/2016/01/creating-plots-in-r-using-ggplot2-part-4-stacked-bar-plots.html
-# https://www.r-bloggers.com/melt/
-# https://wenku.baidu.com/view/ac5b22da6f1aff00bed51e4f.html
 
 
 
